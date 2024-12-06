@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css?v=202422021339"/>
+        <link href="img/logoG.png" rel="icon"/>
+        <title>WaprGates Studio</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="menu">
+                <div class="nav">
+                    <a href="index.html"><img src="img/logoG.png" alt="Logo"></a>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="info.html">Information</a></li>
+                        <li><a href="jeu.html">Jeu</a></li>
+                        <li><a href="download.html">Téléchargement</a></li>
+                        <li><a href="ressources.html">Ressources</a></li>
+                        <!--<li><a href="connection.html">Connexion</a></li>-->
+                    </ul>
+                </div>
+                <div class="burger-menu" onclick="toggleMenu()">
+                    <div class="burger-lines"></div>
+                    <div class="burger-lines"></div>
+                    <div class="burger-lines"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="parallax-effect parallax-effect-download">
+                <div class="download">
+                    <div class="title-text">
+                        <a href="Download/Setup_TTC.exe" target="_blank"><h1>Télécharger le jeu</h1></a>
+                        <br>
+                        <a href="Download/WarpGates_Studio.zip" target="_blank"><p>Télécharger le rapport de soutenance</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>WarpGates Studio 2023</p>
+        </div>
+    </body>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</html>
